@@ -1,0 +1,31 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+background-color:#440101 ;
+}
+
+header img{
+    width: 15rem;
+}
+header nav{
+    display: flex;
+    gap: 3rem;
+
+}
+header nav a{
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.5rem;
+    color:#E6000F ;
+}
+header nav a:hover{
+    color:#E79D0E;
+}
+main{
+    
+    height: 81vh;
+}
