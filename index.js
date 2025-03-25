@@ -8,7 +8,7 @@ for (const warrior of data.items) {
 }
 console.log(warriors)
 
-let createCards =function(objeto){
+let createCards = function(objeto){
    return `<div>
             <img src="${objeto.image}" alt="">
             <p>name: ${objeto.name} </p>
