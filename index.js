@@ -14,8 +14,6 @@ let createCards = function(objeto){
             <p>Ki: ${objeto.ki}</p>
             <p>MaxKi: ${objeto.maxKi}</p>
             <p>Description: ${objeto.description}</p>
-
-
         </div>`
 }
 for (const warrior of warriors) {
