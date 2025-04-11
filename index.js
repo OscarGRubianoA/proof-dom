@@ -16,6 +16,7 @@ let createCards = function(objeto){
             <p>Description: ${objeto.description}</p>
         </div>`
 }
+
 for (const warrior of warriors) {
    container.innerHTML+=(createCards(warrior))
 }
