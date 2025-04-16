@@ -2,6 +2,7 @@ let container = document.getElementById("container")
 console.log(data)
 
 let warriors = []
+
 for (const warrior of data.items) {
     warriors.push (warrior)
 }
