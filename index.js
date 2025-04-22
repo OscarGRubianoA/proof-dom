@@ -1,4 +1,5 @@
 let container = document.getElementById("container")
+
 console.log(data)
 
 let warriors = []
