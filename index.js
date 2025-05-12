@@ -1,8 +1,8 @@
 let container = document.getElementById("container")
 
-console.log(data)
-
 let warriors = []
+
+console.log(data)
 
 for (const warrior of data.items) {
     warriors.push (warrior)
