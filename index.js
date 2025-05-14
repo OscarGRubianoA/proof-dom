@@ -1,6 +1,7 @@
 let container = document.getElementById("container")
 
 let warriors = []
+
 console.log(data)
 
 for (const warrior of data.items) {
